@@ -1,0 +1,7 @@
+After we bake the maps inside painter, we should check if there is any artifact. If there is any, it can mean either the UV unwrap is done wrong, or the triangulation/geo is too bad for rendering, or we have weighted normal wrong(soften or harden the wrong edges). Sometimes, just throw a smart material to the mesh would greatly help finding the artifact. It is extremely important to do this check before moving on, because if later UV unwrap is changed to fix artifact, everything would need to be redone. 
+
+After we pass the artifact check, we start texturing for the biggest area, and work our way to the smallest area. We can throw in a default material/smart material as a start. Then, adjusting the mask with generators, filters, paint, etc. 
+
+Once we have all the main material ready applying to the mesh, we can add normal/height details. Because of the anchor point, it is better to add details when we have the main material ready, so we know how to separate our details by setting different anchor points for different materials to reference. The last step is to add some overall effects like dirt or rust, so the whole mesh looks unifying. 
+
+Possibly, we can create height map in designer with noise pattern, then throw it into painter as the bottom height variation. Because height info will be converted into normal info when exporting normal maps, we don't need to worry about the runtime efficiency or data loss.

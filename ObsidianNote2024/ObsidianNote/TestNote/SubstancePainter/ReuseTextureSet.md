@@ -1,0 +1,3 @@
+After we finish texturing an object, we might want to reuse that texture set because the object might be one of many things that share a similar style in material. This happens often when we do designs for a whole environment instead of just one prop. 
+
+The way we do it is simple, in layers window, we first add a master folder to contain everything, then right click the folder to create smart material. Now it is added to the smart material library. Reusing it is simple just drag it from the library to our layers window like what we do with the default ones. And it is saved even across projects.

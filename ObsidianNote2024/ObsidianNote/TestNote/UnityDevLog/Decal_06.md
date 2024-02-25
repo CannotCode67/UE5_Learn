@@ -1,0 +1,1 @@
+2021.2 beta version of Unity has implemented a build-in decal system for URP. To put it in use, we need to go to the URP render asset, add renderer feature. However, it is in beta version of Unity, we might just wait for it to become a LTS version before trying it out.

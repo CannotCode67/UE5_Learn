@@ -1,0 +1,1 @@
+++p (preincrement) and p++(postincrement) are subtly different. Preincrement is not optimal for a modern CPU because the value needs to change before the expression, making them interdependent. So a modern CPU's parallel calculating ability would produce no gain in preincrement. Use postincrement as much as possible, only use preincrement when there is no other options.

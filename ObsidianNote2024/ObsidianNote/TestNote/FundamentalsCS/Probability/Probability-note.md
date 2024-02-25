@@ -1,0 +1,5 @@
+Counting![[FundamentalsCS/Probability/GetImage.png]]
+![[FundamentalsCS/Probability/GetImage (1).png]]
+![[FundamentalsCS/Probability/GetImage (2).png]]
+![[FundamentalsCS/Probability/GetImage (3).png]]
+![[FundamentalsCS/Probability/GetImage (4).png]]

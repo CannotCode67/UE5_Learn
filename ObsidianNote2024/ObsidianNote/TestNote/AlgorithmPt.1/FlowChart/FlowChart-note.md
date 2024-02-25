@@ -1,0 +1,1 @@
+Different shapes for different purposes![[AlgorithmPt.1/FlowChart/GetImage.png]]

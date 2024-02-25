@@ -1,0 +1,3 @@
+Queue is a linear data structure supporting retrieval by first in, first out (FIFO) order. It has two operations like stack, but they are called differently, enqueue and dequeue. Enqueue operation inserts item at the back of the queue, while dequeue returns (and removes) the item at the queue front. It is somewhat trickier to implement than stacks, because it is not one-end, it has a front and a back. Therefore, it is used only when you want the retrevial order in FIFO fashion. 
+
+Like Stack, queue can be effectively implemented using either array or linked list. The key difference is whether the upper bound of the container size is known in advance, thus permitting the usage of array.

@@ -1,0 +1,1 @@
+The Surge is a soul-like action rpg, which has a game design very similar to dark soul. Its theme is about sci-fi 

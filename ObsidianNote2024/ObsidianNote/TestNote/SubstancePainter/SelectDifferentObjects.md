@@ -1,0 +1,5 @@
+In painter, one object has one shader which has one texture set. When work on different objects, instead of clicking in different texture set, we can ctrl + alt + right click at the object in 3D viewport to switch to the texture set of that object directly. 
+
+We can also share layers across texture set, simply by right click and instantiate across texture sets. Then, we select the texture set we want to additionally affect. The texture instantiated for other texture set is an instance, meaning any changes to the shared layers in the original texture set would update the instances in other texture set. 
+
+And to control where this instance texture is put on, a way is using the same colors to do ID maps for all the objects. Then, the instance texture would be automatically put on to the area with the same color ID.

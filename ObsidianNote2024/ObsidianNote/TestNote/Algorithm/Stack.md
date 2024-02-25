@@ -1,0 +1,5 @@
+Stack is a one-ended linear data structure supporting retrieval by last in, first out (LIFO) order. It has two operations: push and pop, and they insert and return (and remove) the item at the top of the stack respectively. It is so efficient and easy to implement that when the retrieval order doesn't matter, stacks are still one of the best containers to go.  
+
+Talking about container, this term is used to denote a data structure that permits the storage and retrieval of element independent of its value. One of the opposites is the heap structure where the minimum or maximum element is stored at the root and dequeued first. 
+
+Stack can be effectively implemented using either array or linked list. The key difference is whether the upper bound of the container size is known in advance, thus permitting the usage of array.

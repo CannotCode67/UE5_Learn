@@ -1,0 +1,11 @@
+In Unity, similar animation clips like idle, walk, run can use blend tree to combine and blend the motions. However, some animation clips like attack are quite different, and they cannot be blended together smoothly.  
+
+So, we can use another animation layer. By default, Unity has a base layer. One of the tools animation layer provide is the avarta mask which masking the motions of the attached layer. The avarta mask uses a built-in humanoid system or a custom skeleton to denote which parts to mask.  In Unity, similar animation clips like idle, walk, run can use blend tree to combine and blend the motions. However, some animation clips like attack are quite different, and they cannot be blended together smoothly. So, we can use another animation layer. One of the tools animation layer provide is the avarta mask which masking the motions of the attached layer. The avarta mask uses a built-in humanoid system or a custom skeleton to denote which parts to mask. 
+
+One of the value an animation layer can have is the weight. It means which layer is showing on top. Base layer have this value to be one by default. When another layer needs to be on top, we set the weight of that layer to be one. With avarta mask, we would have the unmasked motion showing on top while the masked parts would still play the base layer animation. A good example would be running while swinging a sword. Running would be the base layer motion, while swinging a sword would be the animation in attack layer. Before setting the parameter condition, set the weight of attack layer to be one. When the animation in attack layer is finished, it would set the weight back to zero automatically? 
+
+Another good tool to determine which animation to play is parameter. 
+
+Sometimes, a short animation would play more than once even with a trigger parameter condition. That is the transition duration time is long enough for the animation clip to play more than once. We could fix it by reducing the transition duration time. 
+
+Normally, a transition back to idle state would have a exit time instead of a parameter condition. It means when the animation clip is finished, automatically transition back to idle state.

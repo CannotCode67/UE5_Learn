@@ -1,0 +1,11 @@
+Applying Gravity and proper collision 
+
+A rigidbody component is required for a game object to be modified by Unity build-in physics engine because it provides properties like mass, drag, etc that are essential for simulating the physics behaviour. Also checking use-gravity will automatically apply gravity (which is defined in project setting> physics setting). 
+
+Collision however, is only partially physics related. What it means is collision could happen between objects with collider components, and those objects are not nessarily with a rigidbody component. We can check if there is a collision by calling OnCollisionXXXX() methods or OnTriggerXXXX() methods depending on the collider attached to the object is a collider or a trigger collider. We can turn a collider into a trigger collider by simply checking the trigger field. 
+
+Without a rigidbody, a collision is simply a intercross between collliders, and there is no physics behaviour to that. Now, a collision happens between two objects with rigidbody attached, those objects would have physics behaviour like bouncing back or move a little bit depending on the physics properties set in their rigidbody components. Unless, the colliders on them are trigger colliders.  
+
+One situation is only one of the object in collision has the rigidbody component, and in that case, only the object with rigidbody component would have the physics behaviour while the other one would just stay still. Now, the physics behaviour is calculated as if the object is collided against another object with the same physics properties like it has. It is like a car impact test, a car hitting a wall shows how safe  this car is when it runs into another car with similar physics properties like mass. Again, this would work only if both the colliders are not triggers. 
+
+There is a situation when you might want to define the physics properties of a object, so when other objects hit it, they would have the desired behaviour, and yet you don't want it to have physics behaviour. That particular object would need a collider(not trigger) for collision and a rigidbody (with isKinematic checked) for setting the physics properties.

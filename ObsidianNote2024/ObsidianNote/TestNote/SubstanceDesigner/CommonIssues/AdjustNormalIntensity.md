@@ -1,0 +1,2 @@
+We can double the normal intensity by using normal combine node and plug the normal map into both input slots. Or if we want a more subtle approach, we can use contrast/luminosity node, just adjust the contrast, but leave the luminosity at zero. However, neither of these methods offer perfectly accurate result, so use a normal normalize node after. 
+Why not just use the normal node's intensity parameter?

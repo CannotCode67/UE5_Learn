@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "76825768a0988699",
+    "type": "split",
+    "children": [
+      {
+        "id": "9fdd1d9050b5b473",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "TestNote/Csharp/GenericsInterface.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84b4c2f1f2553e6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "14cd0639fe07b2f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8a067063eb02785",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "82c0e1d1172a7c86",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f6388f35fa0032d4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d3714603d2565bd8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1b0a443354d4037",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0cc6a79d4745d2a8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TestNote/Csharp/GenericsInterface.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d70dcb389896ed7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TestNote/Csharp/GenericsInterface.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7024c4f86bade4f7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e603da65d8452480",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TestNote/Csharp/GenericsInterface.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9fdd1d9050b5b473",
+  "lastOpenFiles": [
+    "TestNote/Csharp/ExecutionFlow.md",
+    "TestNote/Csharp/GenericsInterface.md",
+    "TestNote/Csharp/Inheritance&Polymorphism.md",
+    "TestNote/Csharp/HashSet&LinkedList&Dictionary.md",
+    "TestNote/Csharp/Array&List.md",
+    "TestNote/Csharp/Generics.md",
+    "TestNote/Csharp/Exceptions.md",
+    "Untitled.md",
+    "TestNote/Csharp/Boxing&Unboxing.md",
+    "TestNote/Csharp/Using IDisposable.md"
+  ]
+}

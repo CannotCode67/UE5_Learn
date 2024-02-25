@@ -1,0 +1,1 @@
+NuGet is the package system for .Net, it is here we can find and reference all kinds of third-party libraries. Referenced packages are called external dependencies. Or we can download the package to local diskdrive. 

@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "76825768a0988699",
+    "type": "split",
+    "children": [
+      {
+        "id": "38faa6482cf0d866",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c69f865054ed9c3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal/StartGuide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a926f2d18bd5187",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GameDesign/Background Story Version2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84b4c2f1f2553e6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "14cd0639fe07b2f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8a067063eb02785",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "82c0e1d1172a7c86",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f6388f35fa0032d4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "125d4ad98cc66766",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d3714603d2565bd8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1b0a443354d4037",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0cc6a79d4745d2a8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GameDesign/Background Story Version2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d70dcb389896ed7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GameDesign/Background Story Version2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7024c4f86bade4f7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e603da65d8452480",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GameDesign/Background Story Version2.md"
+              }
+            }
+          },
+          {
+            "id": "5ea7012ec3aae129",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1a926f2d18bd5187",
+  "lastOpenFiles": [
+    "GameDesign/Why TheSurge2 is not good.md",
+    "GameDesign/Background Story Version2.md",
+    "Unreal/StartGuide.md",
+    "Unreal/TempNote/Ai melee combat.md",
+    "Unreal/TempNote/Untitled.md",
+    "ProgrammingLanguages/C++/Memory Management.md",
+    "ProgrammingLanguages/C++_By_JamesRaynard/Video8_Special member functions.md",
+    "GameDesign/transfer soul.png",
+    "GameDesign/Background Story.md",
+    "GameDesign/Things we need to have for our game.md",
+    "GameDesign/main character.md",
+    "GameDesign/Lists.md",
+    "GameDesign",
+    "ProgrammingLanguages/C++/Class & struct.md",
+    "ProgrammingLanguages/C++/Reference & Pointer.md",
+    "ProgrammingLanguages/C++/Operators.md",
+    "ProgrammingLanguages/C++/Namespace.md",
+    "ProgrammingLanguages/C++/Inheritance.md",
+    "ProgrammingLanguages/C++/Enum & Enum class.md",
+    "ProgrammingLanguages/C++/Concepts.md",
+    "ProgrammingLanguages/C++/Functions.md",
+    "KiwiCode/AiCharacterRelated/Sensor System.md",
+    "ProgrammingLanguages/C++_By_JamesRaynard/Video7_Classes.md",
+    "ProgrammingLanguages/C++_By_JamesRaynard/Video6_Declaration & Initialization.md",
+    "ProgrammingLanguages/C++_By_JamesRaynard/Video4_Local variables & Function arguments.md",
+    "Unreal/Movement.md",
+    "Unreal/Utility.md",
+    "Unreal/Actor&Component.md",
+    "ProgrammingLanguages/C++_By_JamesRaynard",
+    "Unreal/TempNote",
+    "TestNote/Maya/MayaRigging/FK&IK/FK&IK-images/GetImage (5).png",
+    "TestNote/Maya/MayaRigging/FK&IK/FK&IK-images/GetImage (4).png",
+    "TestNote/Maya/MayaRigging/FK&IK/FK&IK-images/GetImage (3).png",
+    "TestNote/Maya/MayaRigging/FK&IK/FK&IK-images/GetImage (6).png",
+    "TestNote/Maya/MayaRigging/FK&IK/FK&IK-images/GetImage (7).png",
+    "TestNote/Maya/MayaRigging/FK&IK arm/FK&IK arm-images/GetImage (8).png",
+    "TestNote/Maya/MayaRigging/FK&IK arm/FK&IK arm-images/GetImage (9).png",
+    "TestNote/Maya/MayaRigging/FK&IK arm/FK&IK arm-images/GetImage (10).png"
+  ]
+}

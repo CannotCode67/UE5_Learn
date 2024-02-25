@@ -1,0 +1,21 @@
+Building prototype in game engine is prefered over in modeling software because mesh is eventually being used in game engine. The workflow is build a blockout in modeling software, send it into game engine and build the prototype, build a final model that have the same length*width*height as the blockout, send it into game engine to replace the blockout (the final model should maintain blockout's world space in game engine, so no need to assemble the prototype all over again). 
+
+Mesh imported into Unity should have its transform reset because it is in Unity's world space now, not maya's. A transform at the mesh's center is not good for snapping, thus not good for prototyping.  
+
+In 3dsMax, a point/helper/dummy/whatever is called object can be created and it has only transform information. This object's transform is at its center,  and we snap it to the place where we want the mesh's transform to be, parent the mesh to this dummy object. Now, send both into game engine, the hierarchy would remain. In game engine, use the dummy as the transform for the mesh since child object follows parent object everywhere. Worth mentioning, this works for Unreal as demonstrated by many tutorials. But Unity? 
+
+In maya, we are still looking for the perfect replacement of this dummy object. So far, there are a couple of ways to work around this. 
+
+Two sets of snapping tools in Unity: The build-in snap and the proGrid. 
+
+A cube with its own transform set in maya somehow works in Unity when using proGrid with snap-to-grid function or auto-snap(sometimes not working properly, when using this, remember to turn off the build-in snap). Although its transform gizmo appears to be at the mesh's center in Unity, when its transform is reset, the maya-modified transform position returns to (0, 0, 0), not the transform gizmo. However, using the Unity build-in snap tool doesn't work. The build-in tool use the centered transform gizmo as snapping point. But, Unity allows us to change the transform gizmo to any vertice we like by pressing "V", similar to what we have in maya. With this, the build-in snap tool would use the vertice as snapping point, so does the proGrid's auto-snap. However, selecting the desired vertice is just another additional step in workflow. Directly using proGrid is faster. 
+
+A cube parenting to a group node and use the group node as the dummy object would have the same effect as a cube with its own transform set. 
+
+A cube parenting to a locator and use  the locator as the dummy object would have the same effect as the other two options. 
+
+A cube with its own transform set and freeze transformation would have the same effect as the other options. 
+
+There is also a scaling issue. Unity's default unit of length is meter, and maya's is centimeter. Unity treats importing scaling as 1 cm in maya = 1 meter in Unity. Therefore, a mesh modeled in cm will be correctly presented with its scaling with scale parameter equaling to 1 at x,y,z. The problem is in order to make things as big as meter-wise, we need to scale things up 100 times, and freeze transform on them, still with cm as lengthy unit. If we change maya's unit to meter, when a mesh is exported to Unity, it would have a scale parameter of 0.01 at x,y,z. Two most intuitive ways of doing it, would be modeling meshes in cm and scale them up by 100 times, or modeling meshes in meter but when exporting we change the unit back to cm. When exporting, we have an option under advanced options called units, and it sets scale factor to 1.0 by default, meaning the scale would be as the same as the scale we use for modeling. Here, we can change the scale factor for exporting. Because of this feature, we would prefer to model meshes in meter, then export them with scale factor set to centimeter. 
+
+We can still fix it the issue if we forget to change the unit in the beginning. First, a mesh's size is one piece of data, and the unit describing it is another. All we need is the mesh has the appropriate size to be used in Unity, then we try to find the unit that can be correctly interpreted by Unity meaning setting the scale parameter to 1 at x,y,z in Unity. Remember we should always use a Unity cube to decide whether the mesh has the appropriate size or not.

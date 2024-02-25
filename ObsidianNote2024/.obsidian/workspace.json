@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "732b05288335c76e",
+    "type": "split",
+    "children": [
+      {
+        "id": "52b2ffb002f8489d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a462eed4ee388002",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ObsidianNote/GameDesign/Background Story Version2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26b59e3efca61033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ObsidianNote/GameDesign/Background Story Version3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0ff809eacaf12da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video122_Emplacement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e66f8306954400ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video107_Deque.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ce533d0fe5c7616",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f1dda772cf7c2dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bba0cfcb9fd6e6a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a0ca1c2b44f83aa9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e9d985f0668f12bd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b695560b53410af9",
+    "type": "split",
+    "children": [
+      {
+        "id": "f384171433a8bab6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05e1615f3052a667",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video122_Emplacement.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fef27d357e18ef70",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video122_Emplacement.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f930d3ede3eae28f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2889a0bd8283357d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video122_Emplacement.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "bba0cfcb9fd6e6a3",
+  "lastOpenFiles": [
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video121_Stack.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video122_Emplacement.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video119-120_Queues & Priority Queues.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video107_Deque.md",
+    "ObsidianNote/ProgrammingLanguages/C++/Reference & Pointer.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video118_Nested Maps.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video117_Associative Containers & Custom Types.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video115-116_Unordered Associative Containers.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video113-114_Multiset & Multimap.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video111-112_Map in C++17.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video110_Map.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/BasicOverview/Video10_Array, String & Vector.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video109_Sets.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video108_Tree Data Structure.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video105-106_List.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video104_Forward List.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video103_Standard Library Array.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video102_Container Introduction.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video80_Write Only Algorithms.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video99_Random Number Algorithm.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video96-98_Random Numbers.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video94-95_Further Numeric Algorithms.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video93_Min & Max Algorithms.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video91_Permutation Algorithms.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video90_Sorting Algorithms.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video89_Partitioning Algorithms.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsIntroAndLamdaExpression",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/SpecialMemberFunctionsAndOperatorOverloading",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/FilesAndStreams",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/StringInterface",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/BasicOverview",
+    "ObsidianNote/GameDesign/木板手推车.png",
+    "ObsidianNote/GameDesign/环钻术示意图.webp",
+    "ObsidianNote/GameDesign/前额叶切除工具.png",
+    "ObsidianNote/GameDesign/v2-4c097a10effb9b824eac2d5cc6f911f3_1440w.webp",
+    "ObsidianNote/GameDesign/v2-4c097a10effb9b824eac2d5cc6f911f3_1440w.webp.crdownload"
+  ]
+}
