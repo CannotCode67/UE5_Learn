@@ -37,13 +37,13 @@ if (pInt) // this check doesn't work with uninitialized pointer.
 ```
 
 // const keyword with reference and pointer
-We begin with the simple one, the referene. We know once the reference is declared and initialized, it cannot refer to another memory address. So reference itself is somewhat constant already. If we put a const keyword there
+We begin with the simple one, the reference. We know once the reference is declared and initialized, it cannot refer to another memory address. So reference itself is somewhat constant already. If we put a const keyword there
 ```C++
 int const& rInt = 7;
 ```
 Then, we can neither change the memory address of the reference nor change the object it refers to. Very constant indeed.
 
-For pointer, adding the `const` keyword after the `*` sign would disable the pointer from refering to another memory address, and must be initilized when declared. On the other hand, adding the `const` keyword before the `*` sign would disable the pointer from modifying the object it refers to. Or we can add `const` keyword to both places, crazy right? In that case, the pointer is neither allowed to change memory address nor allowed to modify the refered object.
+For pointer, adding the `const` keyword after the `*` sign would disable the pointer from referring to another memory address, and must be initialized when declared. On the other hand, adding the `const` keyword before the `*` sign would disable the pointer from modifying the object it refers to. Or we can add `const` keyword to both places, crazy right? In that case, the pointer is neither allowed to change memory address nor allowed to modify the referred object.
 ```C++
 int* const pInt1 = &7; // not allowed to change memory address
 (*pInt1)++; // allowed

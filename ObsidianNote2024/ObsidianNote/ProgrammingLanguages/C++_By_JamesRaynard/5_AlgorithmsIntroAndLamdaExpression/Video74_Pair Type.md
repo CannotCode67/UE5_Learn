@@ -10,6 +10,6 @@ Then, we can access its members by first and second.
 We can call `make_pair()` to create a pair variable as well.
 `auto wordpair = make_pair("hello"s, "there"s);`
 
-C++17 offers feature where we don't need to specify the types, and let the compiler to deduce them. Whether to use it is up to you, but I prefer writing out the types.
+C++17 offers feature called CTAD where we don't need to specify the types, and let the compiler to deduce them. Whether to use it is up to you, but I prefer writing out the types.
 `pair wordpair {"hello"s, "there"s};`
 

@@ -2,7 +2,7 @@
 C++ is like C#, a programming language that needs to be complied before executed. Therefore, we need a complier for C++. However, unlike C#, C++ isn't owned by a company, so there are multiple compliers to choose. In C#, we mainly use the complier written by Microsoft. The most popular compliers for C++ are GCC, Clang, and one provided by Microsoft. They are usually the ones which adopt the new language features at the fastest pace. Other compliers may still support only the older version of C++, or only some new features, but not all of them. GCC and Clang are more various platforms, and Microsoft complier is for Windows only.
 
 // Linker
-The term linker sounds unfamiliar. The whole build process of turning C++ source code into executatble file goes like this: We have multiple source code files, and through complier, they become object files. Those object files through the linker become one executatble file. That's where the linker fits in. And usually, linker and complier come in a pair, so you choose GCC or Clang for complier, there is already a linker included.
+The term linker sounds unfamiliar. The whole build process of turning C++ source code into executable file goes like this: We have multiple source code files, and through complier, they become object files. Those object files through the linker become one executable file. That's where the linker fits in. And usually, linker and complier come in a pair, so you choose GCC or Clang for complier, there is already a linker included.
 ![[buildProcess.png]]
 
 // Supporting Website

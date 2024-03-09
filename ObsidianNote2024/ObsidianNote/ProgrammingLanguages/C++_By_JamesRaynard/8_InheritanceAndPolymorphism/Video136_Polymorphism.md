@@ -1,0 +1,4 @@
+
+In programming, polymorphism means different types have the same interface, thus same behavior. STL containers are an example of polymorphism, which is known parametric polymorphism because the element type is a parameter of the vector. The classes in an inheritance hierarchy have the same interface, which is known as subtype polymorphism.
+
+The trend in C++ is away from subtype polymorphism towards parametric polymorphism. So inheritance is not our first option. If we encounter a problem which appears that we need to use inheritance, try composition first. Only use inheritance when it is necessary.

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video122_Emplacement.md",
+                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video206_decltype Keyword.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video107_Deque.md",
+                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/SmartPointers/Video170_Unique Pointer and Custom Deleter.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 385.49999618530273
   },
   "right": {
     "id": "b695560b53410af9",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video122_Emplacement.md",
+                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video206_decltype Keyword.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video122_Emplacement.md",
+                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video206_decltype Keyword.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video122_Emplacement.md"
+                "file": "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video206_decltype Keyword.md"
               }
             }
           }
@@ -183,45 +183,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bba0cfcb9fd6e6a3",
+  "active": "b0ff809eacaf12da",
   "lastOpenFiles": [
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video121_Stack.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video122_Emplacement.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video119-120_Queues & Priority Queues.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video107_Deque.md",
-    "ObsidianNote/ProgrammingLanguages/C++/Reference & Pointer.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video118_Nested Maps.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video117_Associative Containers & Custom Types.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video115-116_Unordered Associative Containers.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video113-114_Multiset & Multimap.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video111-112_Map in C++17.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video110_Map.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/BasicOverview/Video10_Array, String & Vector.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video109_Sets.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video108_Tree Data Structure.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video105-106_List.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video104_Forward List.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video103_Standard Library Array.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers/Video102_Container Introduction.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video80_Write Only Algorithms.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video99_Random Number Algorithm.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/SmartPointers/Video170_Unique Pointer and Custom Deleter.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video206_decltype Keyword.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/SmartPointers/Video169_Unique Pointers & Polymorphism.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/SmartPointers/Video168_Unique Pointers.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/MoveSemantics/Video157_Value Categories.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video196_Constant Expression.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video195_Compile-Time Programming Overview.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video205_Constexpr If Examples.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video201_Variadic Templates.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video200_Extern Templates.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsIntroAndLamdaExpression/Video67_Algorithms with _if & Functors.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video204_Constexpr If Statement.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video199_Template Specialization.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video202-203_Miscellaneous Template Features.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsIntroAndLamdaExpression/Video70-71_Lambda Expression and Capture.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsIntroAndLamdaExpression/Video68-69_Lambda Expression Intro.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsIntroAndLamdaExpression/Video65-66_Algorithms Overview & Predicates.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsIntroAndLamdaExpression/Video73_Lambda Expression in C++14.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsIntroAndLamdaExpression/Video72_Lambda Expression & Partial Evaluation.md",
+    "ObsidianNote/ProgrammingLanguages/C++/Concepts.md",
+    "ObsidianNote/ProgrammingLanguages/C++/Variable and Fundamental Types.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video198_Classes and Templates.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming/Video197_Constexpr Functions.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/BasicOverview/Video24_Namespace.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/MiscellaneousFeatures/Video194_Attributes.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Compile-TimeProgramming",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/MiscellaneousFeatures/Video193_Inline Namespace.md",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/MiscellaneousFeatures",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/SmartPointers",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/MoveSemantics/SpecialMemberFunctionsDeclaration_ref.png",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/MoveSemantics/Value_Categories_Picture.png",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/MoveSemantics",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/ErrorHandlingAndExceptions",
+    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/InheritanceAndPolymorphism",
     "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/Containers",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video96-98_Random Numbers.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video94-95_Further Numeric Algorithms.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video93_Min & Max Algorithms.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video91_Permutation Algorithms.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video90_Sorting Algorithms.md",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2/Video89_Partitioning Algorithms.md",
     "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsPart2",
     "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/AlgorithmsIntroAndLamdaExpression",
     "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/SpecialMemberFunctionsAndOperatorOverloading",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/FilesAndStreams",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/StringInterface",
-    "ObsidianNote/ProgrammingLanguages/C++_By_JamesRaynard/BasicOverview",
     "ObsidianNote/GameDesign/木板手推车.png",
     "ObsidianNote/GameDesign/环钻术示意图.webp",
     "ObsidianNote/GameDesign/前额叶切除工具.png",
-    "ObsidianNote/GameDesign/v2-4c097a10effb9b824eac2d5cc6f911f3_1440w.webp",
-    "ObsidianNote/GameDesign/v2-4c097a10effb9b824eac2d5cc6f911f3_1440w.webp.crdownload"
+    "ObsidianNote/GameDesign/v2-4c097a10effb9b824eac2d5cc6f911f3_1440w.webp"
   ]
 }

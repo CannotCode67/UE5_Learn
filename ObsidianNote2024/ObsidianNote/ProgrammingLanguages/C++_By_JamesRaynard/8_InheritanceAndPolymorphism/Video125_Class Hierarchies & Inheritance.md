@@ -1,0 +1,2 @@
+
+A class hierarchy is a structure where there is a base class and derived classes inherited from the base class. The relationship between classes at different levels in the hierarchy is called inheritance which stands for a `is-a` relationship. A circle is a shape, where circle is a derived class and shape is a base class. A derived class can be base class for classes to inherit from.
